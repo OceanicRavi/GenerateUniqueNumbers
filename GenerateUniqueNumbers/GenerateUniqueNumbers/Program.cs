@@ -9,6 +9,11 @@ namespace GenerateUniqueNumbers
     class Program
     {
         public static List<int> result;
+        /// <summary>
+        /// Entry point to class.
+        /// Ask for the count of unique numbers to be generated.
+        /// Print the result on console.
+        /// </summary>
         static void Main(string[] args)
         {
             Console.WriteLine("Enter count of numbers to be generated: ");
