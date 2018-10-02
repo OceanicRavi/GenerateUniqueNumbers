@@ -7,6 +7,9 @@ namespace TestGenerateUniqueNumbers
     [TestClass]
     public class TestCreateNumber
     {
+         /// <summary>
+         /// Test that for given 'n' GetSecondNumber should not return 'n' or 'n+1'.
+         /// </summary>
         [TestMethod]
         public void Test_GetSecondNumber()
         {
@@ -15,6 +18,9 @@ namespace TestGenerateUniqueNumbers
             Assert.AreNotEqual(2, test_result);
             Assert.AreNotEqual(1, test_result);
         }
+          /// <summary>
+          /// Test that for given four number make a complete number based on their 'place of number'.
+          /// </summary>
         [TestMethod]
         public void Test_MakeNumber()
         {
